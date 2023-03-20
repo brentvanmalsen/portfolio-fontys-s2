@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+.hero
+{
+    background-image: url(images/achtergrond.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo
+{
+    color: white;
+    font-size: 30px;
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 35px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover
+{
+    color: #e78d04;
+    transition: .3s
+}
+nav ul li a::after
+{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .3s ease-in-out;
+}
+nav ul li a:hover::after
+{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+.leerdoelen
+{
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.79);
+}
