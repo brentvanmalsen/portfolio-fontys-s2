@@ -1,17 +1,11 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter';
 }
-body, html
-{
-    background-attachment: fixed;
-    height: 100vh;
-}
-.hero
-{
+
+.hero {
     background-image: url(images/achtergrond.png);
     height: 100vh;
     background-repeat: no-repeat;
@@ -19,8 +13,8 @@ body, html
     background-size: cover;
     background-position: center;
 }
-nav
-{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,25 +23,25 @@ nav
     padding-right: 5%;
     padding-bottom: 40px;
 }
-nav ul li
-{
+
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 35px;
 }
-nav ul li a
-{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-nav ul li a:hover
-{
+
+nav ul li a:hover {
     color: #e78d04;
     transition: .3s
 }
-nav ul li a::after
-{
+
+nav ul li a::after {
     content: "";
     height: 2px;
     width: 0%;
@@ -55,26 +49,27 @@ nav ul li a::after
     display: block;
     transition: .3s ease-in-out;
 }
-nav ul li a:hover::after
-{
+
+nav ul li a:hover::after {
     content: "";
     height: 2px;
     width: 100%;
     background-color: white;
     display: block;
 }
-.leerdoelen
-{
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.79);
+
+.leerdoelen {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.79);
 }
-.mezelf
-{
+
+.mezelf {
     position: absolute;
     bottom: 0px;
     left: 200px;
+    animation: 1s animatie;
 }
-.parallelogram 
-{
+
+.parallelogram {
     font-family: 'inter';
     font-weight: bold;
     font-size: 20px;
@@ -92,55 +87,121 @@ nav ul li a:hover::after
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-    border: none;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-color: black;
+    animation: 1s animatie;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
-  
-.parallelogram:hover 
-{
+
+.parallelogram:hover {
     box-shadow: none;
     transform: skewX(-20deg) translateY(3px);
     transition: .2s;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-color: black;
 }
-.naam
-{
+
+.naam {
     text-decoration: none;
     color: white;
     font-family: "inter";
     font-size: 30px;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.79);
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.79);
     font-weight: bold;
     padding-bottom: 10px;
 }
-.selection-box {
-    height: 260px;
-    width: 260px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
+
+.werkstuk_animatie {
+    --border-size: 3px;
+    --border-angle: 0turn;
+    width: calc(20% - 16px);
+    height: 235px;
+    background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, rgb(0, 0, 0), rgb(255, 123, 0));
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation: bg-spin 3s linear infinite;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 16px;
 }
 
-.selection-box:hover {
+.werkstuk_animatie:hover {
     transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
-.selection-box img {
-    max-width: 100%;
-    height: auto;
-}
-.boxes
-{
+.boxes {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:25px;
+    max-width: 1280px;
+    margin: auto;
+    gap: 25px;
+    
+}
+
+@keyframes animatie {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        ;
+    }
+}
+
+#anim1 {
+    animation: 0.5s animatie;
+}
+
+#anim2 {
+    animation: 1s animatie;
+}
+
+#anim3 {
+    animation: 1.5s animatie;
+}
+
+#anim4 {
+    animation: 2.0s animatie;
+}
+
+#anim5 {
+    animation: 2.5s animatie;
+}
+
+#anim6 {
+    animation: 3.0s animatie;
+}
+
+#anim7 {
+    animation: 3.5s animatie;
+}
+
+#anim8 {
+    animation: 4.0s animatie;
+}
+
+
+@keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}
+
+.werkstuk_afbeelding {
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
 }
