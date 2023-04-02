@@ -125,9 +125,16 @@ nav ul li a:hover::after {
     margin-bottom: 16px;
 }
 
+.werkstuk_animatie {
+    transition: all 0.15s ease-in-out;
+}
+
 .werkstuk_animatie:hover {
     transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+}
+
+.werkstuk_animatie:not(:hover) {
+    transform: scale(1.0);
 }
 
 .boxes {
@@ -139,7 +146,7 @@ nav ul li a:hover::after {
     max-width: 1280px;
     margin: auto;
     gap: 25px;
-    
+
 }
 
 @keyframes animatie {
@@ -153,38 +160,49 @@ nav ul li a:hover::after {
     }
 }
 
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 #anim1 {
-    animation: 0.5s animatie;
+    animation: pop-in 0.5s;
 }
 
 #anim2 {
-    animation: 1s animatie;
+    animation: pop-in 0.5s;
 }
 
 #anim3 {
-    animation: 1.5s animatie;
+    animation: pop-in 0.5s;
 }
 
 #anim4 {
-    animation: 2.0s animatie;
+    animation: pop-in 0.5s;
 }
 
 #anim5 {
-    animation: 2.5s animatie;
+    animation: pop-in 0.5s;
 }
 
 #anim6 {
-    animation: 3.0s animatie;
+    animation: pop-in 0.5s;
 }
 
 #anim7 {
-    animation: 3.5s animatie;
+    animation: pop-in 0.5s;
 }
 
 #anim8 {
-    animation: 4.0s animatie;
+    animation: pop-in 0.5s;
 }
-
 
 @keyframes bg-spin {
     to {
@@ -204,4 +222,25 @@ nav ul li a:hover::after {
     background-size: cover;
     background-position: center;
     margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.werkstuk_animatie:hover .overlay {
+    opacity: 1;
 }
