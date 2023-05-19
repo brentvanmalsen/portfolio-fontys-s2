@@ -140,7 +140,7 @@ nav ul li a:hover::after {
 }
 
 .werkstuk_animatie {
-    --border-size: 3px;
+    --border-size: 0px;
     --border-angle: 0turn;
     width: calc(20% - 16px);
     height: 235px;
@@ -151,6 +151,10 @@ nav ul li a:hover::after {
     animation: bg-spin 3s linear infinite;
     display: flex;
     margin-bottom: 16px;
+}
+
+.werkstuk_animatie:hover {
+    --border-size: 3px;
 }
 
 .werkstuk_animatie {
