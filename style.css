@@ -315,7 +315,10 @@ nav ul li a:hover::after {
     }
 }
 
-.content {
+.titlesubtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin-top: 20px;
 }
@@ -324,12 +327,14 @@ nav ul li a:hover::after {
     font-size: 30px;
     margin-bottom: 10px;
     color: white;
-    border-right: 3px solid;
     white-space: nowrap;
     overflow: hidden;
-    width: 443px;
-    animation: typing 1.5s, cursor .4s step-end infinite alternate;
+    width: 550px;
+    animation: 
+    typing 1s, animatie 1s,
+    cursor .4s step-end 1 forwards;
 }
+
 
 .subtitle {
     font-size: 18px;
