@@ -355,7 +355,7 @@ nav ul li a:hover::after {
 /* Bovenkant werkstuk pagina > */
 
 .werkstukcontainer1 {
-    padding: 3.65rem 5rem;
+    padding: 3.65rem 4.5rem;
     display: flex;
     align-items: flex-start;
 }
@@ -364,6 +364,7 @@ nav ul li a:hover::after {
     position: relative;
     max-width: 50%;
     animation: animatie 1s;
+    margin-left: 0%;
 }
 
 .slider1 {
@@ -436,7 +437,7 @@ nav ul li a:hover::after {
 /* Onderkant werkstuk pagina > */
 
 .werkstukcontainer2 {
-    padding: 3.65rem 5rem;
+    padding: 3.65rem 4.5rem;
     display: flex;
     align-items: flex-start;
 }
@@ -445,7 +446,7 @@ nav ul li a:hover::after {
     position: relative;
     max-width: 50%;
     animation: animatie 1s;
-    margin-left: 2.5%;
+    margin-left: 4%;
 }
 
 .slider2 {
@@ -496,17 +497,17 @@ nav ul li a:hover::after {
 .sidetextafbeelding2 img {
     max-width: 100%;
     height: auto;
-    margin-left: -2%;
+    margin-left: 0%;
     margin-top: -4%;
 }
 
 .sidetext1-1-2 {
     position: absolute;
-    top: 10%;
+    top: 8%;
     color: #fff;
     padding: 20px;
-    max-width: 547px;
-    margin-left: 6%;
+    max-width: 537px;
+    margin-left: 9%;
 }
 
 .sidetext1-1-2 h2 {
@@ -543,6 +544,37 @@ nav ul li a:hover::after {
 }
 
 .sidetext1-2-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext3-1-1 {
+    position: absolute;
+    top: 13%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext3-1-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext3-1-2 {
+    position: absolute;
+    top: 10%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 6%;
+}
+
+.sidetext3-1-2 h2 {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -644,9 +676,6 @@ footer .wave#wave4 {
 }
 
 .pdf-button a:hover {
-    /* background: var(--clr);
-    color: var(--clr);
-    box-shadow: 0 0 35px var(--clr); */
     letter-spacing: 0.25em;
 }
 
