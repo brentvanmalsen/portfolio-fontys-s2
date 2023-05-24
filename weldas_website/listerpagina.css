@@ -1,0 +1,694 @@
+* {
+    font-family: 'roboto';
+}
+
+body {
+    width: 97vw;
+    height: 100vh;
+}
+
+@font-face {
+
+    font-family: cabin-regular;
+
+    src: url('fonts/Cabin/Cabin-Regular.ttf');
+
+}
+
+@font-face {
+
+    font-family: cabin-bold;
+
+    src: url('fonts/Cabin/Cabin-Bold.ttf');
+
+}
+
+#navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFE100;
+}
+
+#navBar nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#hamburgerMenu {
+    margin-left: 25px;
+    margin-right: -5px;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+}
+
+#weldasLogo {
+    margin-left: 74px;
+    margin-right: 5px;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+}
+
+#accountIcon {
+    margin-left: 17px;
+    margin-right: 6px;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+}
+
+#winkelwagenIcon {
+    margin-left: 15px;
+    margin-right: 23px;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navBar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#navBar li:hover a {
+    color: #8b8b8b;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#header {
+    background-color: #1E3A5F;
+    color: white;
+    padding: 10px;
+    margin-top: 5.57rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#zoekbalk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+#zoekbalk input[type="text"] {
+    width: 100vh;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#vergrootglas {
+    position: absolute;
+    margin-left: 349px;
+}
+
+#indexFoto {
+    width: 100vw;
+    margin: 8.45rem auto auto -0.5rem;
+}
+
+#bannerhandschoenen {
+    width: 102vw;
+    margin: 5rem auto auto -0.5rem;
+    margin-top: 137px;
+}
+
+.wrapper {
+    height: 60px;
+    overflow-x: auto;
+    display: flex;
+    margin: 1.5rem 0px 0px -0px;
+    border: none;
+    overflow-x: auto;
+    display: flex;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 5;
+}
+
+.wrapper .tekst {
+    font-family: cabin-regular;
+    min-width: 120px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    line-height: 20px;
+    text-align: center;
+    background-color: none;
+    border-radius: 18px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tekstfilter {
+    font-family: cabin-regular;
+    min-width: 100px;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    line-height: 20px;
+    text-align: center;
+    background-color: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filter {
+    margin-right: 10px;
+}
+
+#lijn {
+    margin-top: 1%;
+    FONT-WEIGHT: 500;
+    width: 100vw;
+    height: 4px;
+    left: 0px;
+    top: 159px;
+    /* background: rgba(217, 217, 217, 0.5); */
+    /* margin-left: -2vw; */
+}
+
+#handschoen1 {
+    width: 164px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+#product-info {
+    height: 200px;
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 12px;
+    font-family: 'roboto';
+}
+
+#elastiek {
+    font-family: 'roboto';
+    font-size: 11px;
+}
+
+#certificering {
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 11px;
+    color: #888888;
+}
+
+#prijs {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.button {
+    position: absolute;
+    background: #009FDF;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 70px;
+    z-index: -1;
+    margin-top: -33px;
+}
+
+
+#winkelwagen-knop {
+    background-color: #FFE100;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 169px;
+    border-radius: 10px;
+    margin-top: -100px;
+    position: relative;
+    bottom: 20px;
+    z-index: -1;
+}
+
+#winkelwagen-knop img {
+    width: 20px;
+    height: 20px;
+    margin: 10px auto 10px auto;
+}
+
+.categorieën {
+    font-family: 'roboto';
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 3.7%;
+    margin-bottom: -1%;
+}
+
+.Certificaten {
+    font-family: 'roboto';
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 3.7%;
+    margin-bottom: -1%;
+}
+
+#scrollCategorieën {
+    /* margin: 1.5rem 0px 0px 0px; */
+    /* border: none; */
+    height: 200px;
+    overflow-x: auto;
+    display: flex;
+    margin-left: -5px;
+    margin-top: 26px;
+}
+
+#scrollCategorieën .tekst {
+    min-width: 8.75rem;
+    height: 10.625rem;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    font-family: cabin-regular;
+    color: #0A264B;
+    border: 0.1px solid #B0B0B0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+#scrollCategorieën .imgCategorie {
+    width: 8rem;
+    height: 8rem;
+    margin: .4688rem .4688rem 0rem .4688rem;
+}
+
+#scrollCertificaten {
+    margin: 7rem 0px 0px 0px;
+    border: none;
+    height: 5rem;
+    overflow-x: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+#scrollCertificaten .tekst {
+    min-width: 6rem;
+    height: 3rem;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    font-family: cabin-regular;
+    color: #0A264B;
+    border: 0.1px solid #B0B0B0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+#scrollCertificaten .imgCertificaat {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 4px auto 0.25rem auto;
+    /* 0.25rem = height border: 3rem - height img 2.5rem / 2 = 0.25rem */
+}
+
+.yellow-space {
+    background-color: #FFE100;
+    height: 361px;
+    width: 102vw;
+    margin-left: -2vw;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin-top: 3%;
+}
+
+.yellow-space h1 {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+.yellow-space h2 {
+    margin-top: 14px;
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 19px;
+    font-weight: lighter;
+    position: relative;
+    top: 20px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+    font-weight: normal;
+}
+
+.yellow-space p {
+    text-align: left;
+    font-family: 'roboto';
+    font-size: 15px;
+    position: relative;
+    top: 32px;
+    padding: 7px;
+    font-weight: normal;
+    margin-left: 30%;
+}
+
+.yellow-space address {
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'roboto';
+    font-size: 15px;
+    position: relative;
+    top: 32px;
+    padding: 7px;
+    font-weight: normal;
+    margin-left: 30%;
+}
+
+/* Kleding Info Kaart */
+
+#kledingInfo {
+    display: flex;
+}
+
+#kledingInfo img {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+@media only screen and (max-width: 991px) {
+    #navBarDesktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #bannerhandschoenen {
+        width: 102vw;
+        margin: 5rem auto auto -0.5rem;
+        margin-top: 106px;
+    }
+
+    .Certificaten {
+        font-family: 'roboto';
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 46.7%;
+        margin-bottom: -1%;
+    }
+
+    .categorieën {
+        font-family: 'roboto';
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 679px;
+        margin-bottom: -1%;
+    }
+
+    .wrapper {
+        height: 60px;
+        overflow-x: auto;
+        display: flex;
+        margin: 1.5rem 0px 0px -0px;
+        border: none;
+        overflow-x: auto;
+        display: flex;
+        width: 2036px;
+    }
+
+    .wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+    #scrollCertificaten::-webkit-scrollbar {
+        display: none;
+    }
+
+    #scrollCategorieën::-webkit-scrollbar {
+        display: none;
+    }
+
+    .button {
+        position: absolute;
+        background: #009FDF;
+        border: none;
+        color: white;
+        padding: 8px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        margin-left: 8%;
+        z-index: -1;
+        margin-top: -33px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    #elastiek {
+        font-size: 14px;
+    }
+
+    .wrapper-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 20%;
+    }
+
+    .listerinfo-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 159px;
+    }
+
+    #ListerInfo {
+        width: 50%;
+    }
+
+    .categorieën-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* margin: 0 13%; */
+        gap: 30px;
+        width: 97vw;
+    }
+
+    .certificaten-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 20%;
+        margin-top: 20px;
+    }
+
+    .yellow-space p {
+        text-align: left;
+        font-family: 'roboto';
+        font-size: 15px;
+        position: relative;
+        top: 32px;
+        padding: 7px;
+        font-weight: normal;
+        margin-left: 689px;
+    }
+
+    .yellow-space address {
+        /* margin-left: 532px; */
+        margin-left: 689px;
+    }
+
+    #scrollCategorieën {
+        gap: 5%;
+        height: 200px;
+        overflow-x: auto;
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        margin-left: 114px;
+    }
+
+    #navBar {
+        display: none;
+    }
+
+    #zoeken {
+        display: none;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #navBarDesktop {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: rgb(255, 225, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 25px;
+    }
+
+    .logo-container img {
+        height: 40px;
+        margin-top: 2%;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 317px;
+        margin: auto 154px auto auto;
+        height: 43px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    input[type="text"] {
+        border: none;
+        outline: none;
+        padding: 0px 20px;
+        font-size: 12px;
+        font-family: roboto-regular;
+        flex: 1 1 0%;
+    }
+
+    button[type="submit"] {
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        color: rgb(85, 85, 85);
+        cursor: pointer;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 14px;
+    }
+
+    .icon-container img {
+        height: 20px;
+    }
+
+    .icons-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons-container img {
+        height: 27px;
+        margin-left: 20px;
+        margin-top: 11%;
+    }
+
+    #subNavbar {
+        position: fixed;
+        left: 0px;
+        font-family: roboto-regular;
+        top: 65px;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(10, 38, 75);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #subNavbar a {
+        display: inline-block;
+        padding: 15px 32px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #subNavbar a:hover {
+        text-decoration: underline 3px rgb(255, 255, 255);
+        text-underline-offset: 17px;
+    }
+
+    .ruimtetussen {
+        display: flex;
+        justify-content: space-between;
+        flex: 2 1 0%;
+    }
+
+    #winkelwagen-knop {
+        background-color: #FFE100;
+        border: none;
+        display: inline-block;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        margin-left: 252px;
+        border-radius: 10px;
+        margin-top: -100px;
+        position: relative;
+        bottom: 20px;
+        z-index: -1;
+    }
+
+}

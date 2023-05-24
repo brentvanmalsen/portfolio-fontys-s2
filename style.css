@@ -339,7 +339,7 @@ nav ul li a:hover::after {
     color: white;
     white-space: nowrap;
     overflow: hidden;
-    width: 550px;
+    width: 559px;
     animation:
         typing 1s, animatie 1s,
         cursor .4s step-end 1 forwards;
@@ -753,6 +753,12 @@ footer .wave#wave4 {
         background-position-x: 1000px;
     }
 
+}
+
+.pdf-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .pdf-button a {

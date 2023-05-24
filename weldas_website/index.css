@@ -1,0 +1,1082 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+
+  height: 100vh;
+}
+
+@font-face {
+  font-family: cabin-regular;
+  src: url('fonts/Cabin/Cabin-Regular.ttf');
+}
+
+@font-face {
+  font-family: cabin-medium;
+  src: url('fonts/Cabin/Cabin-Medium.ttf');
+}
+
+#navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFE100;
+}
+
+#navBar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+#hamburgerMenu {
+  margin-left: 2px;
+  text-align: center;
+  height: 30px;
+  cursor: pointer;
+}
+
+#weldasLogo {
+  margin-left: 70px;
+  text-align: center;
+  height: 35px;
+  cursor: pointer;
+}
+
+#accountIcon {
+  margin-left: 30px;
+  text-align: center;
+  height: 35px;
+  cursor: pointer;
+
+}
+
+#winkelwagenIcon {
+  margin-left: 20px;
+  text-align: center;
+  height: 35px;
+  cursor: pointer;
+}
+
+#navBar li a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+#navBar li:hover a {
+  color: #8b8b8b;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#zoeken {
+  background-color: #1E3A5F;
+  color: white;
+  padding: 10px;
+  margin-top: 5.57rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#zoekbalk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+#zoekbalk input[type="text"] {
+  width: 100vh;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  z-index: 1;
+}
+
+#vergrootglas {
+  position: absolute;
+  margin-left: 23rem;
+}
+
+#indexFoto {
+  width: 100vw;
+  margin: 8.45rem auto auto -0.5rem;
+
+}
+
+#p1 {
+  width: 216px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: rgba(10, 38, 75, 0.5);
+}
+
+#pngCall-icon {
+  margin: 0px 3px 0px 0px;
+  width: 1.3rem;
+}
+
+#btnCtaContact {
+  width: 132px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  cursor: pointer;
+  border-style: none;
+  background-color: #0A264B;
+  border-radius: 8px;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: cabin-medium;
+  font-size: 15px;
+  margin: 30px 0px 0px 10px;
+
+  color: #0A264B;
+}
+
+
+#scrollCategorieën {
+  margin: 1.5rem 0px 0px 0px;
+  gap: 0px;
+  border: none;
+  height: 200px;
+  overflow-x: auto;
+  display: flex;
+}
+
+#scrollCategorieën::-webkit-scrollbar {
+  width: 20;
+}
+
+#scrollCategorieën .tekst {
+  min-width: 8.75rem;
+  height: 10.625rem;
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+  font-family: cabin-regular;
+  color: #0A264B;
+  border: 0.1px solid #B0B0B0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+#scrollCategorieën .imgCategorie {
+  width: 8rem;
+  height: 8rem;
+  margin: .4688rem .4688rem auto .4688rem;
+}
+
+h3 {
+  /* position: absolute; */
+  font-family: cabin-medium;
+  font-size: 15px;
+  margin: 3.0625rem 0rem 17px 0.625rem;
+  color: #0A264B;
+  z-index: -1;
+}
+
+#borderLavaBrown {
+  margin: 0rem 0.625rem 2rem 0.625rem;
+  font-family: cabin-regular;
+  color: #0A264B;
+  border: 0.1px solid #B0B0B0;
+  width: 23.6rem;
+  /* gap: 10px; */
+  height: 14.8156rem;
+  cursor: pointer;
+  /* margin-left: 10px; */
+}
+
+#kledingProduct {
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+#kledingProduct img {
+  width: 8.5rem;
+  margin: 20px 0px 20px 10px;
+}
+
+#product-info {
+  margin: -0.2rem 0rem 0rem .3125rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+#product-info h2 {
+  margin-top: 1rem;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+#product-info p1 p2 p3 p4 p5 {
+  font-family: 'Roboto';
+}
+
+#product-info p1 {
+  margin: 0.3rem 0rem 0rem 0.6rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+#product-info p2 {
+  margin: 2.5rem 0rem 0rem 0.6rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: #000000;
+}
+
+#product-info p3 {
+  margin: 2.5rem 0rem 0rem 0.6rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+#product-info p4 {
+  margin: 0.2rem 0rem 0rem 0.6rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  color: #11A61F;
+}
+
+#product-info p5 {
+  margin: 0.2rem 0rem 0rem 0.6rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: #000000;
+}
+
+#borderHalsbeschermer {
+  margin: 0rem 0.625rem 2rem 0.625rem;
+  font-family: cabin-regular;
+  color: #0A264B;
+  border: 0.1px solid #B0B0B0;
+  width: 23.6rem;
+  height: 14.8156rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+#borderEconomyModel {
+  margin: 0rem 0.625rem 2rem 0.625rem;
+  font-family: cabin-regular;
+  color: #0A264B;
+  border: 0.1px solid #B0B0B0;
+  width: 23.6rem;
+  height: 14.8156rem;
+  cursor: pointer;
+  /* margin-left: 10px; */
+}
+
+#borderSoftTouch {
+  margin: 0rem 0.625rem 2rem 0.625rem;
+  font-family: cabin-regular;
+  color: #0A264B;
+  border: 0.1px solid #B0B0B0;
+  width: 23.6rem;
+  height: 14.8156rem;
+  cursor: pointer;
+  /* margin-left: 10px; */
+}
+
+#winkelwagen-knop {
+  background-color: #FFE100;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+  margin: -66px 0.625rem 0px 155px;
+}
+
+#winkelwagen-knop img {
+  width: 30px;
+  height: 30px;
+  margin: 10px auto 10px auto;
+}
+
+h4 {
+  margin: 0.5rem 0rem;
+  font-weight: 200;
+  font-size: 1rem;
+  text-decoration: underline;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+
+#scrollCertificaten {
+  margin: 3rem 0px 0px 0px;
+  border: none;
+  height: 5rem;
+  overflow-x: auto;
+  display: flex;
+}
+
+#scrollCertificaten::-webkit-scrollbar {
+  width: 20;
+}
+
+#scrollCertificaten .tekst {
+  min-width: 6rem;
+  height: 3rem;
+  margin: 0px 10px 0px 10px;
+  text-align: center;
+
+  font-family: cabin-regular;
+  color: #0A264B;
+  border: 0.1px solid #B0B0B0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+}
+
+#scrollCertificaten .imgCertificaat {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 4px auto 0.25rem auto;
+  /* 0.25rem = height border: 3rem - height img 2.5rem / 2 = 0.25rem */
+}
+
+#p6 {
+  margin: 1.5rem 0rem 0rem 0.625rem;
+  max-width: 22rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+#samenwerkingen {
+  margin: 7rem 0.625rem 3rem 0.625rem;
+
+  width: 30px;
+  height: 30px;
+
+  object-fit: cover;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 2rem;
+  /* breedte pagina: 414px - 3x width image 100 = 414 -300 = 114. 114 - aantal 
+  marges van zeikanten zijn beide 10px dus totaal 20px = 94 / aantal marges tussen afbeelding dat is 3 marges, 
+  dus 114/3 = 31,3*/
+}
+
+#samenwerkingen img {
+  width: 100px;
+  height: 100px;
+  margin: -80px 0 0 0px;
+}
+
+h5 {
+  position: absolute;
+  font-family: cabin-medium;
+  font-size: 15px;
+  margin: 8rem 0rem 0rem 0.625rem;
+  color: #0A264B;
+  z-index: -1;
+}
+
+#reviews {
+  margin: 2.5rem 0.625rem 0rem 0.625rem;
+  background-color: #FFE100;
+  width: 23.625rem;
+  /* breedte scherm is 414px - marges zeikanten is totaal 20px, dus 414 -20 = 394px = 23.625rem*/
+  height: 150px;
+}
+
+#stars {
+  margin: 0.5rem 16rem 0rem 1rem;
+  padding: 1.25rem;
+  /* bepaald de afstand van de sterren in het gele vak (boven en onder) */
+
+  display: grid;
+
+  column-gap: 0px;
+  row-gap: 10px;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#stars img {
+  width: 25px;
+  height: 30px;
+}
+
+.rectangleReviews {
+  margin: -7.56rem 0rem 0rem 12rem;
+
+  display: grid;
+
+  column-gap: 1px;
+  row-gap: 1.9rem;
+
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.rectangle {
+  width: 140px;
+  height: 10px;
+
+  background: #171717;
+  border-radius: 24px;
+}
+
+footer {
+  margin: 8.45rem auto auto -0.5rem;
+  width: 100vw;
+  z-index: -2;
+  height: 60rem;
+  position: sticky;
+  background-color: #FFE100;
+}
+
+#mapsLocatie {
+  margin: 5rem 0rem 0rem 0.625rem;
+  width: 390px;
+  height: 300px;
+}
+
+h5 {
+  margin: 20px 0px 0px 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  z-index: -1;
+  color: #000000;
+}
+
+#listFooter {
+  margin: 10px 0px 0px 10px;
+  max-width: 10px;
+}
+
+#listFooter li {
+  display: block;
+  margin: 55px 0px 0px 10px;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+#betaalLogos {
+  margin: 50px 0px 0px 12px;
+}
+
+#btnVestigingen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 30px auto 0px auto;
+
+  background-color: #0A264B;
+  color: white;
+
+  border: none;
+  border-radius: 3px;
+  width: 300px;
+  height: 55px;
+  font-size: 25px;
+}
+
+
+
+
+
+#contactBot {
+  position: fixed;
+  right: 0.8rem;
+  bottom: 0.8rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+  #navBarDesktop {
+    display: none;
+
+  }
+
+  #myButton{
+    display: none;
+  }
+
+  #modaltxt
+  {
+    display: none;
+  }
+  #kortingTxt
+  {
+    display: none;
+  }
+
+  .close
+  {
+    display: none;
+  }
+
+  .easteregg {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+
+  #navBar {
+    display: none;
+  }
+
+  #zoeken {
+    display: none;
+  }
+
+  #navBarDesktop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(255, 225, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 25px;
+    z-index: 4;
+  }
+
+  .logo-container img {
+    height: 40px;
+    margin-top: 2%;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 317px;
+    margin: auto 154px auto auto;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    z-index: 4;
+  }
+
+  input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 12px;
+    font-family: roboto-regular;
+    flex: 1 1 0%;
+  }
+
+  button[type="submit"] {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 14px;
+  }
+
+  .icon-container img {
+    height: 20px;
+  }
+
+  .icons-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .icons-container img {
+    height: 27px;
+    margin-left: 20px;
+    margin-top: 11%;
+  }
+
+  #subNavbar {
+    position: fixed;
+    left: 0px;
+    font-family: roboto-regular;
+    top: 65px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(10, 38, 75);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 4;
+  }
+
+  #subNavbar a {
+    display: inline-block;
+    padding: 15px 32px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 4;
+  }
+
+
+
+  #subNavbar a:hover {
+    text-decoration: underline 3px rgb(255, 255, 255);
+    text-underline-offset: 17px;
+  }
+
+  .ruimtetussen {
+    display: flex;
+    justify-content: space-between;
+    flex: 2 1 0%;
+  }
+
+  #indexFoto {
+    width: 100vw;
+    height: 630px;
+    margin: 6.73rem auto auto -0.5rem;
+  }
+
+  #p1 {
+    margin-top: -14rem;
+    margin-bottom: 17.5rem;
+
+    width: 30rem;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.18rem;
+    line-height: 25px;
+
+    position: relative;
+    color: white;
+    z-index: 2;
+  }
+
+  #p1::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 31rem;
+    height: 4.6rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: red;   */
+    z-index: -1;
+  }
+
+  #btnCtaContact {
+    width: 12rem;
+    height: 4.5rem;
+    border-radius: 12px;
+
+    margin-top: -16rem;
+    margin-bottom: 16rem;
+
+    background-color: #009FDF;
+    font-size: 23px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #pngCall-icon {
+    margin: 7px 7px 0px 0px;
+    width: 2rem;
+    cursor: pointer;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin: -5rem 0rem 0rem .625rem;
+  }
+
+  #scrollCategorieën {
+    margin: 1.5rem 0rem 1.5rem 0.625rem;
+    gap: 0rem;
+    height: 35rem;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  #scrollCategorieën .tekst {
+    height: 12rem;
+    margin: 0rem 1rem 1rem 0rem;
+    width: 19rem;
+    font-size: 20px;
+    cursor: pointer;
+
+  }
+
+  #scrollCategorieën .imgCategorie {
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem 10rem 0rem 6rem;
+
+  }
+
+
+
+  #scrollCategorieën::-webkit-scrollbar {
+    display: none;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin: 4rem 0rem 3rem .625rem;
+  }
+
+  #populaireProducten {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 98vw;
+    height: 100vh;
+    grid-gap: 30px;
+    /* display: block; */
+    /* margin: auto; */
+  }
+
+  #borderLavaBrown {
+    width: 100%;
+    height: 100%;
+  }
+
+  #borderHalsbeschermer {
+    width: 97%;
+    height: 100%;
+  }
+
+  #borderEconomyModel {
+    width: 100%;
+    height: 100%;
+  }
+
+  #borderSoftTouch {
+    width: 97%;
+    height: 100%;
+  }
+
+  #kledingProduct img {
+    width: 12rem;
+    margin: 55px 0px 20px 10px;
+  }
+
+  #product-info h2 {
+    margin-top: -2px;
+    font-size: 1.5rem;
+  }
+
+  #product-info p1 {
+    margin: 0.3rem 0rem 0rem 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  #product-info p2 {
+    margin: 4.5rem 0rem 0rem 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  #product-info p3 {
+    margin: 4.5rem 0rem 0rem 0.6rem;
+    font-size: 1.5rem;
+  }
+
+  #product-info p4 {
+    margin: 0.2rem 0rem 0rem 0.6rem;
+    font-size: 1rem;
+  }
+
+  #product-info p5 {
+    margin: 0.2rem 0rem 0rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  #winkelwagen-knop img {
+    width: 35px;
+    height: 35px;
+    margin: 10px auto 10px auto;
+  }
+
+  h4 {
+    margin-top: 93px;
+  }
+
+  #scrollCertificaten {
+    margin: 3rem 0px 0px 0px;
+    height: 11rem;
+  }
+
+  #scrollCertificaten .tekst {
+    min-width: 13.2rem;
+    height: 8rem;
+    margin: 0px 10px 0px 10px;
+  }
+
+  #scrollCertificaten .imgCertificaat {
+    width: 5.5rem;
+    height: 4.5rem;
+    margin: 24px auto 0.25rem auto;
+    /* 0.25rem = height border: 3rem - height img 2.5rem / 2 = 0.25rem */
+  }
+
+  #scrollCertificaten::-webkit-scrollbar {
+    display: none;
+  }
+
+  #p6 {
+    font-size: 18px;
+    min-width: 55rem;
+  }
+
+  #samenwerkingen img {
+    width: 200px;
+    height: 200px;
+    margin: -80px 0 0 0px;
+  }
+
+  #reviews {
+    margin: 2.5rem 0.625rem 0rem 0.625rem;
+    background-color: #FFE100;
+    width: 97vw;
+    /* breedte scherm is 414px - marges zeikanten is totaal 20px, dus 414 -20 = 394px = 23.625rem*/
+    height: 150px;
+  }
+
+  .rectangleReviews {
+    margin: -7.5rem 0rem 0rem 47rem;
+  }
+
+  .rectangle {
+    width: 353px;
+    height: 10px;
+    margin-left: 200px;
+  }
+
+  #stars img {
+    width: 30px;
+    height: 35px;
+  }
+
+  #stars {
+    margin: 9.5rem 32rem 0rem 1rem;
+    row-gap: 4px;
+  }
+
+  #mapsLocatie {
+    margin: 12rem 0rem 0rem -13.375rem;
+    width: 700px;
+    position: absolute;
+    height: 300px;
+  }
+
+  h5 {
+    margin: 20px 0px 0px 20px;
+    font-size: 25px;
+  }
+
+  #listFooter {
+    margin: 10px 0px 0px 10px;
+    max-width: 10px;
+  }
+
+  #listFooter li {
+    margin: 65px 0px 20px 10px;
+    font-size: 22px;
+    line-height: 50px;
+  }
+
+  #betaalLogos {
+    margin: 50px 0px 0px 12px;
+  }
+
+  #btnVestigingen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 436px auto 0px auto;
+    background-color: #0A264B;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    height: 55px;
+    font-size: 25px;
+  }
+
+  .easteregg {
+    color: transparent;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 309px;
+    top: 414px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .easteregg:hover {
+    color: #0A264B;
+    font-family: 'roboto';
+    cursor: default;
+  }
+
+  #myButton {
+
+    color: transparent;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 309px;
+    top: 414px;
+    border: none;
+    background-color: transparent;
+  }
+
+
+  #myButton:hover {
+    color: #0A264B;
+    font-family: 'roboto';
+    cursor: default;
+  }
+
+
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #modaltxt {
+    font-family: cabin-medium;
+    font-size: 35px;
+    display: flex;
+    /* margin-left: 40px; */
+    margin: -21px 35px 0px 27px;
+    /* margin-top: 127px; */
+    color: #0A264B;
+  }
+
+  .modal-content {
+    background-color: #FFE100;
+    margin: 14% auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    height: 20%;
+    max-width: 600px;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    /* display: flex; */
+    /* position: absolute; */
+    margin: 0px 0px 0px 567px;
+    top: 149px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #kortingTxt {
+    font-size: 20px;
+    margin: 37px 0px 0px 110px;
+  }
+}
