@@ -767,6 +767,37 @@ nav ul li a:hover::after {
     margin-bottom: 5px;
 }
 
+.sidetext2-1-1 {
+    position: absolute;
+    top: 16%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext2-1-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext2-1-2 {
+    position: absolute;
+    top: 14%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 7%;
+}
+
+.sidetext2-1-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 footer {
     position: relative;
     width: 100%;
@@ -926,4 +957,10 @@ footer .wave#wave4 {
 .underline {
     text-decoration: underline;
     text-underline-offset: 4px;
+}
+
+.list li {
+    line-height: 2;
+    margin-left: 16px;
+    ;
 }

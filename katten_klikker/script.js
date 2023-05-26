@@ -1,5 +1,4 @@
 const el = document.getElementById("button1");
-const blok = document.getElementById("blok");
 const test = document.getElementById("test");
 
 console.log(test);
