@@ -350,6 +350,7 @@ nav ul li a:hover::after {
     font-size: 18px;
     color: #666;
     animation: animatie 1s;
+    max-width: 466px;
 }
 
 /* Bovenkant werkstuk pagina > */
@@ -769,7 +770,7 @@ nav ul li a:hover::after {
 
 .sidetext2-1-1 {
     position: absolute;
-    top: 16%;
+    top: 28%;
     color: #fff;
     padding: 20px;
     margin-left: 17%;
