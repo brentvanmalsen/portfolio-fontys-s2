@@ -830,6 +830,130 @@ nav ul li a:hover::after {
     margin-bottom: 5px;
 }
 
+.sidetext5-3-1 {
+    position: absolute;
+    top: 12%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext5-3-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext5-3-2 {
+    position: absolute;
+    top: 9%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 7%;
+}
+
+.sidetext5-3-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext6-3-1 {
+    position: absolute;
+    top: 12%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext6-3-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext6-3-2 {
+    position: absolute;
+    top: 9%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 7%;
+}
+
+.sidetext6-3-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext3-3-1 {
+    position: absolute;
+    top: 13%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext3-3-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext3-3-2 {
+    position: absolute;
+    top: 16%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 7%;
+}
+
+.sidetext3-3-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext2-2-1 {
+    position: absolute;
+    top: 22%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext2-2-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext2-2-2 {
+    position: absolute;
+    top: 9%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 7%;
+}
+
+.sidetext2-2-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 footer {
     position: relative;
     width: 100%;
