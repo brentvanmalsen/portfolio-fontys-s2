@@ -954,6 +954,68 @@ nav ul li a:hover::after {
     margin-bottom: 5px;
 }
 
+.sidetext1-3-1 {
+    position: absolute;
+    top: 12%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext1-3-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext1-3-2 {
+    position: absolute;
+    top: 2%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 7%;
+}
+
+.sidetext1-3-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext3-4-1 {
+    position: absolute;
+    top: 17%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext3-4-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext3-4-2 {
+    position: absolute;
+    top: 14%;
+    color: #fff;
+    padding: 20px;
+    max-width: 547px;
+    margin-left: 7%;
+}
+
+.sidetext3-4-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 footer {
     position: relative;
     width: 100%;
