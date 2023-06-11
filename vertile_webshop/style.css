@@ -216,12 +216,40 @@ nav {
     align-items: center;
     height: 87px;
     margin-top: 15px;
+    gap: 29px;
 }
 
 .title {
     text-align: center;
     color: #ffffff;
     font-size: 25px;
+}
+
+.navigation-button {
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    right: 40px;
+    border-radius: 10px 0 0 10px;
+    padding: 4px 5px 6px 4px;
+    outline: 2px solid #1345F8;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navigation-button:hover {
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    right: 40px;
+    border-radius: 10px 0 0 10px;
+    padding: 4px 5px 6px 4px;
+    outline: 2px solid #1345F8;
+    background-color: #1345F8;
+    font-size: 14px;
 }
 
 .image-containerX {
