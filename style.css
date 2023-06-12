@@ -1326,6 +1326,37 @@ nav ul li a:hover::after {
     margin-bottom: 5px;
 }
 
+.sidetext3-9-1 {
+    position: absolute;
+    top: 8%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 17%;
+}
+
+.sidetext3-9-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sidetext3-9-2 {
+    position: absolute;
+    top: 1%;
+    color: #fff;
+    padding: 20px;
+    max-width: 609px;
+    margin-left: 3%;
+}
+
+.sidetext3-9-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 footer {
     position: relative;
     width: 100%;
@@ -1491,4 +1522,8 @@ footer .wave#wave4 {
     line-height: 2;
     margin-left: 16px;
     ;
+}
+
+.designscrollbar::-webkit-scrollbar {
+    display: none;
 }
