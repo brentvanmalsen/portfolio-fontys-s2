@@ -22,3 +22,5 @@ window.addEventListener('click', event => {
     document.body.append(cursor)
     removeCursorFromDom(cursor);
 })
+
+
